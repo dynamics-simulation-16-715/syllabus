@@ -11,7 +11,7 @@
 \newcommand{\todo}[1]{\textcolor{red}{TODO: #1}}
 
 \title{16-715: Advanced Robot Dynamics and Simulation}
-\author{Fall 2021}
+\author{Fall 2022}
 \date{}
 
 \begin{document}
@@ -31,7 +31,7 @@ This course explores the fundamental mathematics behind modeling the physics of 
 \begin{center}
 \begin{tabular}{l l}
 	Prof. Zac Manchester & \textbf{Email:} \href{mailto:zacm@cmu.edu}{zacm@cmu.edu} \\
-	TA: Kevin Tracy & \textbf{Email:} \href{mailto:ktracy@cmu.edu}{ktracy@cmu.edu}
+	TA: Anthony Wertz & \textbf{Email:} \href{mailto:awertz@cmu.edu}{awertz@cmu.edu}
 \end{tabular}
 \end{center}
 
@@ -118,47 +118,53 @@ If you have questions about this or your coursework, please let me know. Thank y
 \begin{tabular}{c|c|c|c}
 	Week & Dates & Topics & Assignments \\
 	\hline
-	\multirow{2}{*}{1} & Aug 31 & Course Overview \& Review of Newtonian Mechanics Concepts \\
-	 & Sep 2 & Particles, Pendulums, and Orbits &  \\
+	\multirow{2}{*}{1} & Aug 30 & Course Overview \& Review of Newtonian Mechanics Concepts \\
+	 & Sep 1 & Particles, Pendulums, and Orbits &  \\
 	\hline
-	\multirow{2}{*}{2} & Sep 7 & Energy and Stability &  \\
-	 & Sep 9 & Numerical Solution of ODEs and Runge-Kutta Methods &  \\
+	\multirow{2}{*}{2} & Sep 6 & Energy and Stability &  \\
+	 & Sep 8 & Numerical Solution of ODEs and Runge-Kutta Methods &  \\
 	\hline
-	\multirow{2}{*}{3} & Sep 14 &  \textcolor{red}{No Class} & HW 1 Out \\
-	 & Sep 16 & Rigid Bodies, Euler's Equation, and Lie Groups &  \\
+	\multirow{2}{*}{3} & Sep 13 & Runge-Kutta Methods Pt. 2 & HW 1 Out \\
+	 & Sep 15 & Rigid Bodies, Euler's Equation, and Lie Groups Pt. 1 &  \\
 	\hline
-	\multirow{2}{*}{4} & Sep 21 & Quaternions and Numerical Simulation &  \\
-	 & Sep 23 & Quadrotors, Airplanes, and Spacecraft & \\
+	\multirow{2}{*}{4} & Sep 20 & Rigid Bodies, Euler's Equation, and Lie Groups Pt. 2 &  \\
+	 & Sep 22 & Quaternions and Numerical Simulation & \\
 	\hline
-	\multirow{2}{*}{5} & Sep 28 & Constrained Optimization Pt. 1 & HW 1 Due \\
-	 & Sep 30 & The Least-Action Principle & \\
+	\multirow{2}{*}{5} & Sep 27 & Quadrotors, Airplanes, and Spacecraft & HW 1 Due \\
+	 & Sep 29 & Constrained Optimization Pt. 1 & HW2 Out \\
 	\hline
-	\multirow{2}{*}{6}  & Oct 5 & Coordinates, Constraints, and Manifolds &  \\
-	 & Oct 7 & D'Alembert, Virtual Work, and Generalized Forces & \\
+	\multirow{2}{*}{6}  & Oct 4 & The Least-Action Principle &  \\
+	 & Oct 6 & Coordinates, Constraints, and Manifolds & \\
 	\hline
-	\multirow{2}{*}{7}  & Oct 12 & Lagrangian Mechanics and Manipulators & HW2 Out \\
-	 & Oct 14 & \textcolor{red}{No Class} &  \\
+	\multirow{2}{*}{7}  & Oct 11 & D'Alembert, Virtual Work, and Generalized Forces &  HW2 Due\\
+	 & Oct 13 & Lagrangian Mechanics and Manipulators &  \\
 	\hline
-	\multirow{2}{*}{8}  & Oct 19 & Momentum, Duality, and the Hamiltonian & \\
-	 & Oct 21 & Lie Algebras and Euler's Equation from a Lagrangian & \\
+	\multirow{2}{*}{8}  & Oct 18 & \textcolor{red}{No Class} & \\
+	 & Oct 20 & \textcolor{red}{No Class} & \\
 	\hline
-	\multirow{2}{*}{9}  & Oct 26 & Discrete Mechanics and Variational Integrators & HW2 Due \\
-	 & Oct 28 & Constrained Optimization Pt. 2 &   \\
+	\multirow{2}{*}{8}  & Oct 18 & Lie Algebras and Euler's Equation from a Lagrangian & HW3 Out \\
+	 & Oct 20 & Floating-Base Dynamics & \\
 	\hline
-	\multirow{2}{*}{10}  & Nov 2 & Impacts as Inequality Constraints &  \\
-	 & Nov 4 & Coulomb Friction and The Maximum Dissipation Principle & \\
+	\multirow{2}{*}{9}  & Oct 25 & Constrained Optimization Pt. 2 & \\
+	 & Oct 27 & Discrete Mechanics and Variational Integrators &   \\
+	\hline
+	\multirow{2}{*}{10}  & Nov 1 & Momentum, Duality, and the Hamiltonian &  HW3 Due \\
+	 & Nov 3 & Constrained Optimization Pt. 3 & HW4 Out\\
 	 \hline
-	\multirow{2}{*}{11}  & Nov 9 & \textcolor{red}{No Class} & HW3 Out \\
-	 & Nov 11 & \textcolor{red}{No Class} &   \\
+	\multirow{2}{*}{11}  & Nov 8 & Impacts as Inequality Constraints & \\
+	 & Nov 10 & Coulomb Friction and The Maximum Dissipation Principle  &   \\
 	 \hline
-	\multirow{2}{*}{12}  & Nov 16 & Floating-Base Dynamics &  \\
-	 & Nov 18 & Dynamics with Contact &   \\
+	\multirow{2}{*}{12}  & Nov 15 & Dynamics with Contact Pt. 1 & HW4 Due \\
+	 & Nov 17 & Dynamics with Contact Pt. 2 &   \\
 	 \hline
-	\multirow{2}{*}{13}  & Nov 23 & Dynamics with Contact & HW3 Due \\
-	 & Nov 25 & \textcolor{red}{No Class} & \\
+	\multirow{2}{*}{13}  & Nov 22 & Maximal vs. Minimal Coordinates for Simulation & \\
+	 & Nov 24 & \textcolor{red}{No Class} & \\
 	 \hline
-	\multirow{2}{*}{14}  & Nov 30 & Fast Simulation Algorithms &  \\
-	 & Dec 2 & Project Presentations &   \\
+	 \multirow{2}{*}{14}  & Nov 29 & Fast Simulation Algorithms Pt. 1 &  \\
+	 & Dec 1 & Fast Simulation Algorithms Pt. 2 &   \\
+	 \hline
+	\multirow{2}{*}{14}  & Dec 6 & Project Presentations &  \\
+	 & Dec 8 & Project Presentations &   \\
 \end{tabular}
 
 \section*{Project Guidelines}
